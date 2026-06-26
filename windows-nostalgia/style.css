@@ -1,0 +1,75 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "MS Sans Serif", "Microsoft Sans Serif", Tahoma, sans-serif;
+  font-size: 11px;
+  background: #a0cded;
+  background-image: url(https://static.wikitide.net/windowswallpaperwiki/2/24/Clouds_%28Windows_95%29.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.window {
+  background: #c0c0c0;
+  border: 2px solid;
+  border-color: #ffffff #424242 #424242 #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.title-bar {
+  background: linear-gradient(90deg, #0b2367 0%, #accef3 100%);
+  color: #ffffff;
+  padding: 4px 0px 4px 12px;
+  font-weight: bold;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(90deg, #091f5a 0%, #96b4d5 100%) 1;
+}
+
+.content {
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.message-text {
+  padding-top: 12px;
+  color: #000000;
+}
+
+.button-container {
+  padding: 0px 16px 16px 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  background: #c0c0c0;
+  border: 2px solid;
+  border-color: #ffffff #000000 #000000 #ffffff;
+  padding: 4px 8px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.button:active {
+  border-color: #000000 #ffffff #ffffff #000000;
+  outline: 1px dotted #000000;
+  outline-offset: -4px;
+}
+
+.button:focus {
+  outline: 1px dotted #000000;
+  outline-offset: -4px;
+}
