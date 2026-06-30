@@ -78,3 +78,12 @@ p {
 strong {
   color: #222;
 }
+
+@media (width < 720px) {
+  ul {
+    padding: 0px;
+  }
+  ul > li {
+    margin-block-end: 20px;
+  }
+}
