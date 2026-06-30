@@ -71,6 +71,8 @@ body {
   min-height: 100vh;
   background-color: oklch(18% 0.03 260);
   color: oklch(96% 0.01 200);
+  max-width: 1000px;
+  margin: auto;
   font-family:
     system-ui,
     -apple-system,
